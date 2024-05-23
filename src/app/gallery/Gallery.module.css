@@ -1,0 +1,10 @@
+.imagesContainer{
+	display: grid;
+	grid-template-columns: 25vw 25vw 25vw;
+	/* grid-template-columns: repeat(3, 1fr); */
+	max-width: 80vw;
+	flex-grow: 1;
+	margin-top: 2vh;
+	gap: 3vw;
+	padding-bottom: 50px;
+}

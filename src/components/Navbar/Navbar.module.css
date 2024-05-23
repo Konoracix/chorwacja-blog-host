@@ -1,0 +1,42 @@
+.container {
+	width: 100vw;
+	min-height: 8vh;
+	background-color: #e5e5e5;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	flex-direction: row;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/* padding-bottom: 10vh; */
+	/* margin-bottom: 1vh; */
+}
+
+.mainPage{
+	padding: 1vw;
+	min-width: 15vw;
+	padding-left: 2.5vw;
+}
+
+
+/* .container>div{
+	padding: 1vw;
+	cursor: pointer;
+} */
+/* .container>div:nth-child(1){
+	padding-left: 2.5vw;
+	cursor: pointer;
+} */
+
+.logo{
+	/* position: absolute; */
+	margin-right: 2vw;
+	/* align-self: flex-end; */
+	/* padding-left: 20px; */
+	width: 6rem;
+}
+
+.logoWrapper{
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+}

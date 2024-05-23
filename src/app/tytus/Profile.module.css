@@ -1,0 +1,40 @@
+.mainImage {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 10vh;
+	width: 65vw;
+}
+
+.mainImageContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 3rem;
+}
+
+
+.mainPageTitle {
+	width: 100vw;
+	padding-top: 10vh;
+	padding-bottom: 5vh;
+	/* flex-grow: 1; */
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	font-weight: bold; 
+}
+
+.blogPost {
+	width: 100%;
+	/* padding-top: 1rem; */
+	/* padding-bottom: 5rem; */
+	padding-left: 5rem;
+	padding-right: 5rem;
+	/* background-color: #e5e5e5; */
+	border-radius: 15px;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	text-align: justify;
+	text-justify: inter-word;
+	transition: 0.3s;
+}
