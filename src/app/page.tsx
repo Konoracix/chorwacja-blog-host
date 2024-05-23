@@ -20,14 +20,14 @@ export default function Home() {
 			{/* </div> */}
 
 			<div className={styles.flags}>
-				<img className={styles.flag} src="flaga-hiszpania.png"></img>
+				<img className={styles.flag} src="Flag_of_Croatia.svg"></img>
 				<img className={styles.unia} src="unia.png"></img>
 				{/* <img className={styles.flag} src="logo-zsl.png"></img> */}
 				<img className={styles.flag} src="flaga-polska.png"></img>
 			</div>
 
 			<div className={styles.mainImageContainer}>
-				<img className={styles.mainImage} style={{width: "70vw"}} src="zdjecieGlowne.jpg" alt="asd" />
+				<img className={styles.mainImage} style={{width: "70vw"}} src="czaswolny/3.jpg" alt="asd" />
 			</div>
 			<h1 style={{padding: "5.3vh 0"}}>Posty</h1>
 			<div className={styles.blogContainer}>
@@ -39,41 +39,45 @@ export default function Home() {
 				<Post title="Trzech typów podcast odcinek nr 1.mp4" src="post4.jpg">
 					Witajcie misie kolorowe! 🐻 Czas na kolejny odcinek naszego podcastu 3 typów podcast! 🎧 Dziś przygotowaliśmy dla was coś naprawdę ekscytującego! 🌟 Rozmawialiśmy między innymi o jednej takiej co poleciała na e46, o wojnie w Izraelu i o przepisach na gotowane jajka 🥚🍳.
 				</Post> */}
-				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/yoga'}>
-					<Post title="Yoga" src="yoga/2.jpg">
-					Niedawno miełam okazję wziąć udział w zajęciach z Bollywood Yogi i było to niezwykłe doświadczenie, które połączyło energetyczne tańce Bollywood z relaksującymi technikami jogi. Zajęcia odbywały się w lokalnym parku, gdzie ...
-					</Post>
-				</Link>
+				
 
-				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/podroz'}>
-					<Post title="Podróż" src="podroz/3.jpg">
-					Mimo że Kraków jest jednym z najpiękniejszych miast w Polsce, czasami człowiek potrzebuje trochę słońca i egzotyki. Dlatego w drodze do słonecznej Granady musieliśmy przelecieć z Krakowa do Malagi, dwóch uroczych miast ...</Post>
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/hunting'}>
+					<Post title="Hunting game" src="hunting/1.jpg">
+					Piątkowy wieczór spędzaliśmy na poszukiwaniu różnych budowli, pomników ale nawet psów, z którymi musieliśmy zrobić zdjęcia. Emocje podczas tej zabawy sięgały zenitu gdyż zostaliśmy podzieleni ...</Post>
 				</Link>
 				
-				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/sacromonte'}>
-					<Post title="Sacromonte" src="sacromonte/2.jpg">
-						Sacromonte w Grenadzie to miejsce pełne historii i kultury, również jego znane jaskinie, które ...
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/makarska'}>
+					<Post title="Makarska" src="makarska/1.jpg">
+					Zobaczyliśmy piękne miasto Makarskę. Po drodzę zahaczyliśmy o Omiš który jest pięknym miastem pod kątem zwiedzania. Zwiedzaliśmy rynek w Omiš, płynęliśmy łódką po Rzece. Mieliśmy czas wolny na zwiedzanie ...
 					</Post>
 				</Link>
 
-				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/loscahorros'}>
-					<Post title="Los Cahorros" src="losCahorros/14.jpg">
-						Wycieczka w góry szlakiem Los Cahorros to niezapomniane doświadczenie dla miłośników przyrody i aktywnego wypoczynku. Szlak ten ...
+
+				
+
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/trogir'}>
+					<Post title="Trogir" src="trogir/1.jpg">
+					Zobaczyliśmy  piękne miasto o nazwie Trogir. Jest to miasto które powstało w 3 wieku przed nasza erą. Zwiedziliśmy rynek w Trogirze, pogoda była idealna do robienia zdjęć ...
 					</Post>
 				</Link>
 
-				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/nerja'}>
-					<Post title="Nerja" src="nerja/1.jpg">
-					Wspaniale spędziliśmy dzień podczas wizyty w jaskiniach Nerja w Hiszpanii. Podziwialiśmy niezwykłe formacje skalne ...
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/czaswolny'}>
+					<Post title="Czas wolny" src="czaswolny/1.jpg">
+					W Chorwacji czas mija szybko, a po pracy mamy dużo atrakcji takich jak na przykład hunting game, boisko do piłki nożnej i siatkowki, które znajdują się blisko apartamentu. Split i Kaštel Štafilić mają bardzo wiele ciekawych ...
+					</Post>
+				</Link>
+				
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/praca'}>
+					<Post title="Praca" src="praca/4.jpeg">
+					Informatycy zajmowali się wgrywaniem systemów na laptopy, komputery oraz ich konfiguracją, logistycy zajmowali się rozkładaniem towaru na półki sklepowe, programista zajmował się cyfryzacją faktur ...
 					</Post>
 				</Link>
 
-				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/ninodelaspinturas'}>
-					<Post title="Niño de las Pinturas" src="graficiarz/21.jpg">
-					Dzisiaj mieliśmy przyjemność odkryć magiczny świat street artu w Hiszpanii, podążając śladami lokalnego geniusza graffiti - Niño de las Pinturas&apos;a. Ta barwna wycieczka ...
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/krk'}>
+					<Post title="Narodowy Park Krk" src="krk/1.jpg">
+					Zobaczyliśmy jeden z Narodowych parków Chorwacji Park Krka. Po drodzę zahaczyliśmy o Šibenik, który jest pięknym miastem pod kątem zwiedzania. Już w samym parku widzieliśmy ...
 					</Post>
 				</Link>
-
 			</div>
 		</>
 	// </div>
